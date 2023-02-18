@@ -1,0 +1,10 @@
+.retinkMedia {
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+}
+.retinkMedia h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--purple);
+}

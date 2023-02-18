@@ -1,0 +1,57 @@
+.formInfo {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.formInfo h2 {
+    display: flex;
+    justify-content: center;
+    color: var(--purple);
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.form input {
+    margin: 5px;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 15px;
+    border: 2px solid;
+    border-color: var(--purple);
+}
+.form input::placeholder {
+    color: var(--purple);
+}
+.content {
+    display: flex;
+    justify-content: center;
+}
+.content button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px 40px;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    background: var(--purple);
+    color: var(--white);
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.signUpBtn {
+    padding: 10px 50px;
+    text-align: center;
+    border: 2px solid;
+    text-decoration: underline;
+    font-size: 1rem;
+    border-color: var(--purple);
+    border-radius: 15px;
+    background: white;
+    color: #0085ff;
+    cursor: pointer;
+}

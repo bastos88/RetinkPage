@@ -1,0 +1,51 @@
+.container {
+    width: 100%;
+    height: 250px;
+    display: block;
+    justify-content: flex-start;
+    background-color: #d0d0d0;
+    margin-top: 50px;
+}
+.container img {
+    padding: 50px 80px;
+}
+.info {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 20px;
+}
+
+footer {
+    background-color: black;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.footer p {
+    font-size: 0.875rem;
+    color: white;
+    margin-left: 50px;
+}
+.terms a {
+    font-size: 0.875rem;
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+.media {
+    display: block;
+}
+.media p {
+    margin-left: 10px;
+}
+.media ul li {
+    display: inline;
+    margin-left: 5px;
+}
+.media ul li img {
+    padding: 5px 5px;
+    display: inline-block;
+    cursor: pointer;
+}
